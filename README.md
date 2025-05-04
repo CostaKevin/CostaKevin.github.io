@@ -67,10 +67,7 @@ Kevin Mota da Costa, Alan Miguel Velásquez, Julio Cesar Fabris
 
 This repository is organized into several core areas of study and application:
 
-### 🧠 **Artificial Intelligence (AI)**
-
 <h3 id="ai">🧠 <a href="https://www.google.com">Artificial Intelligence (AI)</a></h3>
-
 
 * Neural Networks (Perceptron, MLP, CNN, RNN)
 * Gaussian Processes and Bayesian inference
