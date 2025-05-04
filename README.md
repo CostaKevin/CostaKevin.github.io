@@ -100,7 +100,7 @@ This repository is organized into several core areas of study and application:
 
 ## 🌐 Links
 
-🔗 **arXiv**: [arXiv:2311.04470](https://arxiv.org/abs/2311.04470)
+🔗 **NASA ADS** DOI 10.48550/arXiv.2311.04470: 📄 [NASA ADS Abstract](https://ui.adsabs.harvard.edu/abs/2023arXiv231104470M/abstract) .
 
 ---
 
