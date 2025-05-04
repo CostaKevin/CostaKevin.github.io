@@ -74,24 +74,28 @@ This repository is organized into several core areas of study and application:
 * Applications to scientific modeling and regression tasks
 
 ### 📊 **Data Science & Databases**
+<h3 id="ai">🧠 <a href="https://www.google.com">📊 Data Science & Databases</a></h3>
 
 * SQL queries and relational design
 * Data modeling and schema normalization
 * Examples of real-world datasets and database projects
 
 ### 💪 **Programming & Algorithms**
+<h3 id="ai">🧠 <a href="https://www.google.com">💪 Programming & Algorithms</a></h3>
 
 * Python and C++ fundamentals
 * Classical algorithms (searching, sorting, pseudorandom generation)
 * Numerical methods: interpolation, integration, linear systems
 
 ### 📘 **Theoretical Foundations**
+<h3 id="ai">🧠 <a href="https://www.google.com">📘 Theoretical Foundations</a></h3>
 
 * Mathematical tools for computation
 * Physics models and quantitative reasoning
 * Statistical techniques, including Monte Carlo methods and inference theory
 
 ### 🧪 **Projects**
+<h3 id="ai">🧠 <a href="https://www.google.com">🧪 Projects</a></h3>
 
 * End-to-end applications using the above techniques
 * Integration of AI, mathematics, and statistical modeling in real scenarios
