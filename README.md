@@ -44,7 +44,7 @@ I enjoy building solutions that combine statistical rigor, efficient code, and i
 
 **"Determinação da Distância à Grande Nuvem de Magalhães Através das Estrelas Variáveis Cefeidas"**  
 Kevin Mota da Costa, Alan Miguel Velásquez, Julio Cesar Fabris  
-📄 [arXiv:2311.04470](https://arxiv.org/abs/2311.04470)
+📄 [NASA ADS Abstract](https://ui.adsabs.harvard.edu/abs/2023arXiv231104470M/abstract) 
 
 
 * Used time-series data and statistical modeling to derive distance estimations.
