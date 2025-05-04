@@ -100,7 +100,6 @@ This repository is organized into several core areas of study and application:
 ## 🌐 Links
 
 🔗 **arXiv**: [arXiv:2311.04470](https://arxiv.org/abs/2311.04470)
-📺 **YouTube**: [COSMO-UFES Channel](https://www.youtube.com/@cosmoufes)
 
 ---
 
