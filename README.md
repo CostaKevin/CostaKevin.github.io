@@ -42,7 +42,8 @@ I enjoy building solutions that combine statistical rigor, efficient code, and i
 
 ## 📄 Research Publication
 
-**"Determinação da Distância à Grande Nuvem de Magalhães Através das Estrelas Variáveis Cefeidas"**
+**"Determinação da Distância à Grande Nuvem de Magalhães Através das Estrelas Variáveis Cefeidas"**.
+
 
 Kevin Mota da Costa, Alan Miguel Velásquez, Julio Cesar Fabris
 📄 [arXiv:2311.04470](https://arxiv.org/abs/2311.04470)
