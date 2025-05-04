@@ -1,6 +1,6 @@
 # 🧪 Projects Directory
 
-This folder contains practical, end-to-end projects that integrate concepts from artificial intelligence, data science, programming, and scientific computing.
+This file contains practical, end-to-end projects that integrate concepts from artificial intelligence, data science, programming, and scientific computing.
 
 Each project is self-contained and demonstrates the application of theoretical and technical skills to solve real-world problems.
 
