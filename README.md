@@ -95,7 +95,7 @@ This repository is organized into several core areas of study and application:
 * Statistical techniques, including Monte Carlo methods and inference theory
 
 
-<h3 id="ai"> <a href="https://github.com/CostaKevin/CostaKevin.github.io/tree/main/projects">🧪 Projects</a></h3>
+<h3 id="ai"> <a href="https://github.com/CostaKevin/CostaKevin.github.io/blob/main/featured_projects/README.md">🧪 Projects</a></h3>
 
 * End-to-end applications using the above techniques
 * Integration of AI, mathematics, and statistical modeling in real scenarios
