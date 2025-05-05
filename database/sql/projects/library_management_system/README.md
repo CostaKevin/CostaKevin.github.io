@@ -32,7 +32,7 @@ The system consists of the following relational tables:
 ```sql
 authors(author_id, name, country)
 books(book_id, title, author_id, genre, published_year)
-members(member_id, name, join_date, email)
+members(member_id, name, status, email)
 loans(loan_id, book_id, member_id, loan_date, return_date)
 fines(fine_id, loan_id, amount, paid)
 ```
