@@ -106,7 +106,7 @@ lms-sql-project/
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
-Aspiring Data Analyst / Backend Developer  
-📫 [your.email@example.com]  
-🌐 [Your LinkedIn or Portfolio]
+**[Kevin Costa]**  
+Aspiring Data Analyst  
+📫 [dacosta.kevin.mota@gmail.com]  
+🌐 [https://www.linkedin.com/in/costakevinn/]
