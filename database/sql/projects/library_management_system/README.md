@@ -30,11 +30,11 @@ The system consists of the following relational tables:
 ## 🧱 Tables and Fields
 
 ```sql
-Authors(author_id, name, country)
-Books(book_id, title, author_id, genre, published_year)
-Members(member_id, name, join_date, email)
-Loans(loan_id, book_id, member_id, loan_date, return_date)
-Fines(fine_id, loan_id, amount, paid)
+authors(author_id, name, country)
+books(book_id, title, author_id, genre, published_year)
+members(member_id, name, join_date, email)
+loans(loan_id, book_id, member_id, loan_date, return_date)
+fines(fine_id, loan_id, amount, paid)
 ```
 
 ---
