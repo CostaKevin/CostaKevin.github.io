@@ -81,7 +81,7 @@ Each table contains a set of meaningful sample entries to simulate real-world op
 ## 📁 Project Structure
 
 ```
-lms-sql-project/
+library_management_system/
 ├── README.md
 ├── sql/
 │   ├── schema.sql
