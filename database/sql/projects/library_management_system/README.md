@@ -106,6 +106,6 @@ library_management_system/
 ## 👨‍💻 Author
 
 **[Kevin Costa]**  
-Aspiring Data Analyst  
+Data Scientist | Machine Learning Researcher | Python Developer | Scientific Computing
 📫 [dacosta.kevin.mota@gmail.com]  
 🌐 [https://www.linkedin.com/in/costakevinn/]
