@@ -117,8 +117,8 @@ In this version, I’ve included a dedicated `Fines` table to manage overdue pen
 ---
 
 ## 👨‍💻 Author
-Data Scientist | Machine Learning Researcher | Python Developer | Scientific Computing
 **Kevin Costa**  
-Aspiring Data Analyst / Backend Developer  
-📫 dacosta.kevin.mota@gmail.com] 
+Data Scientist | Machine Learning Researcher | Python Developer | Scientific Computing
+
+📫 dacosta.kevin.mota@gmail.com
 🌐 https://www.linkedin.com/in/costakevinn/
