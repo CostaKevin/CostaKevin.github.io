@@ -105,7 +105,6 @@ This repository is organized into several core areas of study and application:
 ## 🌐 Links
 
 - 🔗 [NASA ADS Abstract](https://ui.adsabs.harvard.edu/abs/2023arXiv231104470M/abstract)  
-- 🧠 [GitHub Repository](https://github.com/CostaKevin/CostaKevin.github.io)
 
 ---
 
@@ -113,7 +112,7 @@ This repository is organized into several core areas of study and application:
 
 - 📧 **Email**: dacosta.kevin.mota@gmail.com  
 - 💼 **LinkedIn**: [linkedin.com/in/costakevinn](https://www.linkedin.com/in/costakevinn/)  
-- 💻 **GitHub**: [CostaKevin.github.io](CostaKevin.github.io)
+- 💻 **GitHub Repository**: [CostaKevin]((https://github.com/CostaKevin/))
 
 ---
 
