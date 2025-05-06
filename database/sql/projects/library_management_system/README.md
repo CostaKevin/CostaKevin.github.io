@@ -10,17 +10,20 @@ This project demonstrates a complete relational database design and SQL querying
 
 The system consists of the following relational tables:
 
-| Table     | Description                            |
-|-----------|----------------------------------------|
-| Authors   | Stores author information              |
-| Books     | Contains book details                  |
-| Members   | Holds data on registered library users |
-| Loans     | Tracks book borrow and return activity |
-| Fines     | Records fines associated with overdue loans |
+| Table        | Description                            |
+|--------------|----------------------------------------|
+| Authors      | Stores author information              |
+| Books        | Contains book details                  |
+| Members      | Holds data on registered library users |
+| Loans        | Tracks book borrow and return activity |
+| Fines        | Records fines associated with overdue loans |
+| BookAuthors  | Junction table for books and authors   |
 
 ### 📌 Entity Relationships
 
 - One **Author** → Many **Books**
+- One **Book** → Many **Authors**
+- Many-to-Many relationship handled via **BookAuthors**
 - One **Book** → Many **Loans**
 - One **Member** → Many **Loans**
 - One **Loan** → Zero or One **Fine**
@@ -30,12 +33,15 @@ The system consists of the following relational tables:
 ## 🧱 Tables and Fields
 
 ```sql
-authors(author_id, name, country)
-books(book_id, title, author_id, genre, published_year)
-members(member_id, name, status, email)
-loans(loan_id, book_id, member_id, loan_date, return_date)
-fines(fine_id, loan_id, amount, paid)
+Authors(AuthorID, Name, Country)
+Books(BookID, Title, Genre, PublishedYear)
+Members(MemberID, Name, JoinDate, Email)
+Loans(LoanID, BookID, MemberID, LoanDate, ReturnDate)
+Fines(FineID, LoanID, Amount, Paid)
+BookAuthors(BookID, AuthorID)
 ```
+
+- `BookAuthors` is a junction table to support the many-to-many relationship between Books and Authors.
 
 ---
 
@@ -63,9 +69,9 @@ Each table contains a set of meaningful sample entries to simulate real-world op
 
 ## 🛠️ Tools Used
 
-- SQL (Microsoft SQL Server Management Studio)
-- ERD diagram tool (MySQL Workbench)
-- Text editor (VS Code)
+- SQL (PostgreSQL / MySQL compatible syntax)
+- ERD diagram tool (e.g., dbdiagram.io)
+- Text editor (VS Code / Sublime Text)
 
 ---
 
@@ -81,7 +87,7 @@ Each table contains a set of meaningful sample entries to simulate real-world op
 ## 📁 Project Structure
 
 ```
-library_management_system/
+lms-sql-project/
 ├── README.md
 ├── sql/
 │   ├── schema.sql
@@ -89,7 +95,6 @@ library_management_system/
 │   └── queries.sql
 ├── diagrams/
 │   └── erd.png
-|   └── erd.mwb
 └── screenshots/
     └── sample_query_results.png
 ```
@@ -101,13 +106,13 @@ library_management_system/
 - Add triggers for automatic fine calculation
 - Create stored procedures for issuing and returning books
 - Introduce user roles (admin, member)
+- Add UI integration via web or Python app
 
 ---
 
 ## 👨‍💻 Author
 
 **Kevin Costa**  
-Data Scientist | Machine Learning Researcher | Python Developer | Scientific Computing
-
-📫 dacosta.kevin.mota@gmail.com  
-🌐 https://www.linkedin.com/in/costakevinn/
+Aspiring Data Analyst / Backend Developer  
+📫 [your.email@example.com]  
+🌐 [Your LinkedIn or Portfolio]
