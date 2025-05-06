@@ -105,7 +105,7 @@ This repository is organized into several core areas of study and application:
 ## 🌐 Links
 
 - 🔗 [NASA ADS Abstract](https://ui.adsabs.harvard.edu/abs/2023arXiv231104470M/abstract)
-- 💻 **GitHub Page**: [CostaKevin.github.io](CostaKevin.github.io)
+- 💻 **GitHub Page**: [CostaKevin.github.io]CostaKevin.github.io](https://costakevin.github.io/)
 
 ---
 
