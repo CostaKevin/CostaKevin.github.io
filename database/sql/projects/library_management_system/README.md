@@ -89,6 +89,7 @@ library_management_system/
 │   └── queries.sql
 ├── diagrams/
 │   └── erd.png
+|   └── erd.mwb
 └── screenshots/
     └── sample_query_results.png
 ```
