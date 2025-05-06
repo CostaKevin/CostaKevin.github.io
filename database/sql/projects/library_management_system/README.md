@@ -12,12 +12,12 @@ The system consists of the following relational tables:
 
 | Table        | Description                            |
 |--------------|----------------------------------------|
-| Authors      | Stores author information              |
-| Books        | Contains book details                  |
-| Members      | Holds data on registered library users |
-| Loans        | Tracks book borrow and return activity |
-| Fines        | Records fines associated with overdue loans |
-| BookAuthors  | Junction table for books and authors   |
+| authors      | Stores author information              |
+| books        | Contains book details                  |
+| members      | Holds data on registered library users |
+| loans        | Tracks book borrow and return activity |
+| fines        | Records fines associated with overdue loans |
+| book_authors  | Junction table for books and authors   |
 
 ### 📌 Entity Relationships
 
@@ -33,12 +33,12 @@ The system consists of the following relational tables:
 ## 🧱 Tables and Fields
 
 ```sql
-Authors(AuthorID, Name, Country)
-Books(BookID, Title, Genre, PublishedYear)
-Members(MemberID, Name, JoinDate, Email)
-Loans(LoanID, BookID, MemberID, LoanDate, ReturnDate)
-Fines(FineID, LoanID, Amount, Paid)
-BookAuthors(BookID, AuthorID)
+authors(AuthorID, Name, Country)
+books(BookID, Title, Genre, PublishedYear)
+members(MemberID, Name, JoinDate, Email)
+loans(LoanID, BookID, MemberID, LoanDate, ReturnDate)
+fines(fine_id, Loan_id, amount, paid)
+book_authors(book_id, author_id)
 ```
 
 - `BookAuthors` is a junction table to support the many-to-many relationship between Books and Authors.
@@ -107,6 +107,12 @@ lms-sql-project/
 - Create stored procedures for issuing and returning books
 - Introduce user roles (admin, member)
 - Add UI integration via web or Python app
+
+---
+
+## 🧠 Design Reflection
+
+In this version, I’ve included a dedicated `Fines` table to manage overdue penalties separately from the `Loans` table. This separation allows for cleaner data organization and better scalability. In future improvements, I plan to expand this table to support more detailed tracking — such as timestamps for when fines were issued and paid, user who processed the fine, fine reason codes, and even audit logs for payment history. These changes will make the system more robust and ready for production-scale environments.
 
 ---
 
