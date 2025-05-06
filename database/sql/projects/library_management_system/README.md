@@ -110,7 +110,7 @@ lms-sql-project/
 
 ---
 
-## 🧠 Design Reflection
+## 🫧 Design Reflection
 
 In this version, I’ve included a dedicated `Fines` table to manage overdue penalties separately from the `Loans` table. This separation allows for cleaner data organization and better scalability. In future improvements, I plan to expand this table to support more detailed tracking — such as timestamps for when fines were issued and paid, user who processed the fine, fine reason codes, and even audit logs for payment history. These changes will make the system more robust and ready for production-scale environments.
 
