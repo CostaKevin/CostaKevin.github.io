@@ -69,9 +69,9 @@ Each table contains a set of meaningful sample entries to simulate real-world op
 
 ## 🛠️ Tools Used
 
-- SQL (PostgreSQL / MySQL compatible syntax)
-- ERD diagram tool (e.g., dbdiagram.io)
-- Text editor (VS Code / Sublime Text)
+- SQL (Microsoft SQL Server Management Studio)
+- ERD diagram tool (MySQL Workbench)
+- Text editor (VS Code)
 
 ---
 
