@@ -112,7 +112,7 @@ This repository is organized into several core areas of study and application:
 
 - 📧 **Email**: dacosta.kevin.mota@gmail.com  
 - 💼 **LinkedIn**: [linkedin.com/in/costakevinn](https://www.linkedin.com/in/costakevinn/)  
-- 💻 **GitHub Repository**: [github.com/CostaKevin/]((https://github.com/CostaKevin/))
+- 💻 **GitHub Repository**: [github.com/CostaKevin/](https://github.com/CostaKevin/)
 
 ---
 
